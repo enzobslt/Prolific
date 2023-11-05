@@ -9,11 +9,13 @@
   <div id="profil">
     <%= link_to about_path do %>
       <%= image_tag('profil.png', class: 'profil') %>
-      <a id="qui-suis-je">Qui suis-je ?</a>
+      <%= link_to "Qui suis-je ?", about_path %>
     <% end %>
   </div>
 </nav>
 
+<div class="container" id="container-about">
+</div>
 
 <nav id="footer" style="align-items: end;">
   <div id="contact">
@@ -22,7 +24,7 @@
   </div>
 
   <div id="mention">
-    <h1>Mention Légales</h1>
+    <%= link_to "Mention Légales", mention_path %>
   </div>
 
   <div id="portefolio">
