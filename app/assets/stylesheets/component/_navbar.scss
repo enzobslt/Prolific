@@ -1,0 +1,54 @@
+#nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 29px;
+}
+
+#profil {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  width: 263px;
+  height: 122px;
+}
+
+.profil {
+  width: 97px;
+  height: 99px;
+}
+
+
+#qui-suis-je {
+  text-decoration: none !important;
+  text-align: center;
+  color: black;
+  font-family: Baskerville;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@media screen and (max-width: 768px) {
+  #nav {
+    padding: 15px 20px;
+  }
+
+  .profil {
+    width: 48.5px;
+    height: 49.5px;
+  }
+  #profil {
+    text-align: center;
+  }
+
+  .logo {
+    width: 131.5px;
+    height: 61px;
+  }
+  #qui-suis-je {
+    font-size: 15px;
+  }
+}

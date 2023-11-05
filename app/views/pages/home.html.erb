@@ -1,0 +1,33 @@
+<nav id="nav">
+  <div>
+    <%= link_to root_path do %>
+      <%= image_tag('logo.png', class: 'logo') %>
+    <% end %>
+  </div>
+
+
+  <div id="profil">
+    <%= link_to about_path do %>
+      <%= image_tag('profil.png', class: 'profil') %>
+      <a id="qui-suis-je">Qui suis-je ?</a>
+    <% end %>
+  </div>
+</nav>
+
+
+<nav id="footer" style="align-items: end;">
+  <div id="contact">
+    <h1>07 69 86 48 98</h1>
+    <h1>landreauantonin@gmail.com</h1>
+  </div>
+
+  <div id="mention">
+    <h1>Mention Légales</h1>
+  </div>
+
+  <div id="portefolio">
+    <h1>Portfolio</h1>
+    <h1>CV</h1>
+    <h1>@antonin.landreau</h1>
+  </div>
+</nav>

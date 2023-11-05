@@ -1,0 +1,37 @@
+#footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 29px;
+}
+
+#footer h1 {
+  color: #000;
+  font-family: Baskerville;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#portefolio {
+  text-align: end;
+}
+
+@media screen and (max-width: 768px) {
+  #footer {
+    flex-direction: column;
+    text-align: center;
+  }
+  #contact {
+    width: 100%;
+    text-align: center;
+  }
+  #portefolio {
+    width: 100%;
+    text-align: center;
+  }
+  #mention {
+    width: 100%;
+    text-align: center;
+  }
+}

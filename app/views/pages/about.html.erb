@@ -1,0 +1,43 @@
+<nav id="nav">
+  <div>
+    <%= link_to root_path do %>
+      <%= image_tag('logo.png', class: 'logo') %>
+    <% end %>
+  </div>
+
+
+  <div id="profil">
+    <%= link_to about_path do %>
+      <%= image_tag('profil.png', class: 'profil') %>
+      <a id="qui-suis-je">Qui suis-je ?</a>
+    <% end %>
+  </div>
+</nav>
+
+<div class="container" id="container-about">
+  <div class="presentation">Bonjour, je me présente, je m’appelle Antonin Landreau.
+  Je suis animé par le graphisme en général, mais j’ai surtout un intérêt pour les projets qui
+  me permettent de passer d’un support digital à un support physique.
+  Aujourd’hui en 4e année d’école de graphisme, je cherche un stage à partir d’avril 2024.
+  Vous trouverez sur cette page mes coordonnées ainsi que mon CV et mon portfolio.
+  Je reste facilement joignable par e-mail ou par téléphone.
+  </div>
+  <div class="presentation" id="display-contenu"></div>
+</div>
+
+<nav id="footer" style="align-items: end;">
+  <div id="contact">
+    <h1>07 69 86 48 98</h1>
+    <h1>landreauantonin@gmail.com</h1>
+  </div>
+
+  <div id="mention">
+    <h1>Mention Légales</h1>
+  </div>
+
+  <div id="portefolio">
+    <h1>Portfolio</h1>
+    <h1>CV</h1>
+    <h1>@antonin.landreau</h1>
+  </div>
+</nav>
